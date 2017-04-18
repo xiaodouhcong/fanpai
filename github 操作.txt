@@ -1,0 +1,22 @@
+git init
+git add README.md
+git commit -m "first commit"
+
+如果提示 Run
+--------------------------------------------------------------
+git config --global user.email "you@example.com"   //那就输入你注册github的邮箱
+git config --global user.name "you Name"//你注册github帐号时留下的用户名
+
+--------------------------------------------------------------
+重新操作
+1、git init
+2、git config user.name "你的邮箱"
+3、git config user.email "你注册github用户名"
+4、git add -A //添加全部文件至仓库
+5、git commit -m "描述" 
+6、git remote add origin git@github.com:xiaodouhcong/fanpai.git//改成自己的
+7、git push -u origin master
+
+
+
+ 
